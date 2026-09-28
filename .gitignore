@@ -1,0 +1,23 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+config/database.local.php
+
+# User-uploaded profile photos (keep placeholder page only)
+uploads/profil/*
+!uploads/profil/index.html
+
+# Temporary logs, caches, and local scratch tests
+*.log
+*.tmp
+scratch/
+/cekdb.php
+/tes.php
+/testdb.php
+/text.php
+
+# Windows/macOS and editor-local files
+.DS_Store
+Thumbs.db
+.vscode/*
